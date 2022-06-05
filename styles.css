@@ -1,0 +1,22 @@
+
+.grid {
+    margin-top: 20px;
+    width: 200px;
+    height: 400px;
+    background: purple;
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    /* background: rgb(0, 21, 255); */
+    /* margin: px; */
+}
+
+.tetromino {
+    background: rgb(5, 248, 5);
+
+}
