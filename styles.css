@@ -1,12 +1,28 @@
 
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(3, 61, 56);
+    color: #fff;
+    height: 100vh;
+}
+.container {
+    display: flex;
+
+}
+
 .grid {
-    margin-top: 20px;
     width: 200px;
-    height: 400px;
-    background: purple;
+    background: rgb(251, 254, 253);
     display: flex;
     flex-wrap: wrap;
-    /* overflow: hidden; */
+    box-shadow: 0 2px 10px rgba(236, 242, 233, 0.581);
+    border-radius: 15px;
 }
 
 .grid div {
@@ -18,5 +34,48 @@
 
 .tetromino {
     background: rgb(5, 248, 5);
+
+}
+
+
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 2px 10px rgba(12, 12, 12, 0.581);
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+#start-button {
+    height: 40px;
+    margin-right:015px;
+    margin-left:015px;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(236, 242, 233, 0.581);
+}
+
+h4 {
+    position: absolute;
+    top: 50px;
+
+}
+h1 {
+    position: absolute;
+    top: 20px;
+    font-family: sans-serif;
+    color: red;
 
 }
