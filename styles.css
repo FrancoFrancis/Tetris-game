@@ -11,6 +11,8 @@ body {
     color: #fff;
     height: 100vh;
 }
+
+
 .container {
     display: flex;
 
@@ -36,8 +38,6 @@ body {
     background: rgb(5, 248, 5);
 
 }
-
-
 
 .mini-grid {
     margin-left: 50px;
